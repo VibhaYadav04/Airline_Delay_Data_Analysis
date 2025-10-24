@@ -1,0 +1,13 @@
+{
+    "CLASS_CLEAN": "org.spark.DataCleaning",
+    "CLASS_INGEST": "org.spark.DataIngestion",
+    "CLASS_TRANSFORM": "org.spark.DataTransformation",
+    "JARS_PATH": "/opt/airflow/jars",
+    "JAR_CLEAN": "/opt/airflow/jars/data-cleaning-job-jar-with-dependencies.jar",
+    "JAR_INGEST": "/opt/airflow/jars/data-ingestion-job-jar-with-dependencies.jar",
+    "JAR_TRANSFORM": "/opt/airflow/jars/data-transformation-job-jar-with-dependencies.jar",
+    "MYSQL_CONN_ID": "mysql_default",
+    "SCHEMA_FILE": "/schema.sql",
+    "SLACK_CONN_ID": "slack_connection",
+    "SPARK_CONN_ID": "spark_default"
+}
