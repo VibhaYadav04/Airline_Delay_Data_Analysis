@@ -24,11 +24,11 @@ Removes duplicates, handles nulls, cleans categorical fields, and stores the cle
 ### 3️⃣ Data Transformation (`DataTransformation.java`)
 Performs aggregations, derives new columns, and creates **Fact** and **Dimension** tables stored in the **Gold layer**.
 
+### 4️⃣ Airflow
+Automates the ETL pipeline with Slack and Email alerts on task failure.
+
 ## Power BI Dashboards
 <img width="1500" height="722" alt="image" src="https://github.com/user-attachments/assets/80781ad8-ddb8-4b17-bdec-5441eaa24a50" />
 <img width="1500" height="721" alt="image" src="https://github.com/user-attachments/assets/181e1c16-f199-49b6-902c-20c0f5386891" />
 
 
-
-### 4️⃣ Airflow
-Automates the ETL pipeline with Slack and Email alerts on task failure.
